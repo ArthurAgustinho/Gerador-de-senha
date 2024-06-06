@@ -1,0 +1,12 @@
+:root{
+    --fundo: #525252;
+    --branco: white;
+    --quadrado: #EE780B;
+    --fraco: #FFD600;
+    --médio: #A9FF1C;
+    --forte: #0DF0FF;
+}
+
+body{
+    color: var(--branco);
+}
