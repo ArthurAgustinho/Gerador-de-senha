@@ -1,12 +1,57 @@
 :root{
+    
     --fundo: #525252;
     --branco: white;
     --quadrado: #EE780B;
     --fraco: #FFD600;
     --médio: #A9FF1C;
     --forte: #0DF0FF;
+    --roboto: 'Roboto', sans-serif;
+    --roboto-mono: 'Roboto Mono', monospace;
+    --preto: #131414;
+}
+
+*{
+    font-weight: 400
 }
 
 body{
     color: var(--branco);
+    background-color: var(--fundo);
+    font-family: var(--roboto-mono);
+    font-size: 32px;
 }
+
+.titulo-principal{
+    font-family: var(--roboto-mono);
+    font-size: 32px;
+}
+
+
+.titulo-secundario{
+    font-size: 24px;
+}
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.conteudo-senha{
+    background: var(--branco);
+    padding: 24px;
+    border-bottom: 6px solid var(--preto);
+    color: #131414;
+}
+
+#campo-senha{
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--branco);  
+    font-family: var(--roboto-mono);
+    font-size: 40px;
+}
+
+
+
+
