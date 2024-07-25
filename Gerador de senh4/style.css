@@ -1,7 +1,6 @@
-:root{
-    
+:root{   
     --fundo: #525252;
-    --branco: white;
+    --branco: #ffff;
     --quadrado: #EE780B;
     --fraco: #FFD600;
     --médio: #A9FF1C;
@@ -17,7 +16,7 @@
 
 body{
     color: var(--branco);
-    background-color: var(--cor-de-fundo);
+    background-color: var(--fundo);
     font-family: var(--roboto);
 }
 
@@ -150,5 +149,8 @@ label{
     .parametro-coluna__senha{
         flex-direction: row;
     }
+}
+
+
 }
 
